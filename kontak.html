@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="shortcut icon" href="./assets/icon/nm.png" type="image/x-icon" />
+
+    <link rel="stylesheet" href="./dist/css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Kontak Kami - WIDIPA MULTIJAYA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-primary py-3">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"> <img src="./assets/icon/nm.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top rounded" />
+          <span class="fw-bold text-white">Widipa Multijaya</span>
+        </a>
+        <button class="navbar-toggler bg-white shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto d-flex gap-3 text-center pt-lg-0 pt-4">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="index.html#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="index.html#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="index.html#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="index.html#projects">Kerusakan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="index.html#faq">FAQ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white active" aria-current="page" href="kontak.html">Kontak</a> </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="contact-us py-5">
+      <div class="container">
+        <h1 class="fw-bold text-center mb-4">Hubungi Kami</h1>
+        <p class="text-center mb-5">Kami siap membantu Anda. Isi formulir di bawah ini atau gunakan informasi kontak kami.</p>
+
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-lg-6">
+            <div class="card shadow-sm p-4">
+              <form action="#" method="POST"> <div class="mb-3">
+                  <label for="namaLengkap" class="form-label">Nama Lengkap</label>
+                  <input type="text" class="form-control" id="namaLengkap" placeholder="Masukkan nama lengkap Anda" required>
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Alamat Email</label>
+                  <input type="email" class="form-control" id="email" placeholder="contoh@domain.com" required>
+                </div>
+                <div class="mb-3">
+                  <label for="nomorTelepon" class="form-label">Nomor Telepon (Opsional)</label>
+                  <input type="tel" class="form-control" id="nomorTelepon" placeholder="+62 8XX XXXX XXXX">
+                </div>
+                <div class="mb-3">
+                  <label for="subjek" class="form-label">Subjek</label>
+                  <input type="text" class="form-control" id="subjek" placeholder="Contoh: Permintaan Service USG">
+                </div>
+                <div class="mb-3">
+                  <label for="pesan" class="form-label">Pesan Anda</label>
+                  <textarea class="form-control" id="pesan" rows="5" placeholder="Tulis pesan Anda di sini..." required></textarea>
+                </div>
+                <div class="d-grid">
+                  <button type="submit" class="btn btn-primary btn-lg">Kirim Pesan</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-5 text-center">
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm p-3 h-100">
+                    <i class="fa-solid fa-envelope fa-2x text-primary mb-3"></i>
+                    <h5 class="fw-bold">Email</h5>
+                    <p class="m-0">info@widipamultijaya.com</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm p-3 h-100">
+                    <i class="fa-solid fa-phone fa-2x text-primary mb-3"></i>
+                    <h5 class="fw-bold">Telepon</h5>
+                    <p class="m-0">(022) - 1234 - 5678 - 910</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm p-3 h-100">
+                    <i class="fa-solid fa-location-dot fa-2x text-primary mb-3"></i>
+                    <h5 class="fw-bold">Alamat</h5>
+                    <p class="m-0">Jalan Pasir Impun, Kel. Sindangjaya, Kec. Mandalajati, Kota Bandung, Jawa Barat</p>
+                </div>
+            </div>
+        </div>
+
+      </div>
+    </section>
+    <section class="footer bg-primary">
+      <div class="container">
+        <div class="footer-box">
+          <div class="row justify-content-between row-gap-4">
+            <div class="col col-md-4 col-12 text-white">
+              <div class="d-flex align-items-center gap-2">
+                <img src="./assets/icon/nm.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top rounded" />
+                <h2 class="fw-bold text-white">Widipa Multijaya</h2>
+              </div>
+              <p class="lh-lg opacity-75 m-0">Solusi terpercaya untuk service dan pemeliharaan alat kesehatan Anda. Kami berkomitmen untuk kualitas dan kepuasan pelanggan.</p>
+            </div>
+            <div class="col col-md-2 col-12 d-flex flex-column text-white gap-2">
+              <h4 class="fw-bold">Menu</h4>
+              <a href="index.html#home" class="text-white text-decoration-none">Home</a>
+              <a href="index.html#about" class="text-white text-decoration-none">Tentang</a>
+              <a href="index.html#services" class="text-white text-decoration-none">Layanan</a>
+              <a href="index.html#projects" class="text-white text-decoration-none">Kerusakan</a>
+              <a href="index.html#faq" class="text-white text-decoration-none">FAQ</a>
+              <a href="kontak.html" class="text-white text-decoration-none">Kontak</a>
+            </div>
+            <div class="col col-md-4 col-12 d-flex flex-column text-white gap-2">
+              <h4 class="fw-bold">Hubungi Kami</h4>
+              <p class="m-0 d-flex align-items-center gap-2">
+                <i class="fa-solid fa-envelope"></i>
+                info@widipamultijaya.com
+              </p>
+              <p class="m-0 d-flex align-items-center gap-2">
+                <i class="fa-solid fa-phone"></i>
+                (022) - 1234 - 5678 - 910
+              </p>
+              <p class="m-0 d-flex align-items-center gap-2 lh-lg">
+                <i class="fa-solid fa-location-dot"></i>
+                Jalan Pasir Impun, Kel. Sindangjaya, Kec. Mandalajati, Kota Bandung, Jawa Barat
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="copyright text-center text-white">
+          <p class="lh-lg">&copy; Copyright by <span class="fw-bold">Widipa Multijaya</span> 2024, All Rights Reserved.</p>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
