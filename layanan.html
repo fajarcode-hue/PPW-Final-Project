@@ -15,7 +15,7 @@
 </head>
 
 <body id="home">
-<nav class="navbar navbar-expand-lg bg-primary py-3">
+  <nav class="navbar navbar-expand-lg bg-primary py-3">
     <div class="container">
       <a class="navbar-brand" href="#">
         <img src="./assets/images/widipa.png" alt="Logo" width="30" height="30"
@@ -47,44 +47,112 @@
       </div>
     </div>
   </nav>
-  <section class="hero overflow-hidden">
+  <section class="services" id="services">
     <div class="container">
-      <div class="hero-box d-flex align-items-center justify-content-between flex-md-row flex-column gap-md-0 gap-5">
-        <div class="box">
-          <h1 class="fw-bold mb-3">
-            Solusi Terbaik <br />
-            untuk Service USG <br />
-            oleh <span class="text-primary">Widipa Multijaya</span>
-          </h1>
-          <p class="lh-lg mb-4">
-            Kami siap melayani perbaikan alat kesehatan USG di seluruh
-            Indonesia, dengan fokus utama di wilayah Pulau Jawa. Keandalan dan
-            profesionalisme adalah prioritas kami.
-          </p>
-          <div>
-            <a href="#about" class="btn btn-primary">Tentang Kami</a>
-            <a href="#projects" class="btn btn-outline-primary">Jenis Kerusakan</a>
+      <div class="services-box">
+        <h1 class="fw-bold mb-3">Layanan Kami</h1>
+        <p>
+          Widipa Multijaya menyediakan layanan service profesional untuk
+          berbagai jenis alat pencitraan medis:
+        </p>
+
+        <div class="box pt-4 d-flex gap-3 flex-md-row flex-column">
+          <div class="service p-4 shadow bg-primary text-white rounded-4">
+            <i class="fa-solid fa-stethoscope mb-3"></i>
+            <h4 class="mb-3 fw-bold">Service USG</h4>
+            <p class="lh-lg">
+              Kami melayani perbaikan dan kalibrasi berbagai merek dan tipe
+              alat USG, memastikan kinerja optimal untuk diagnostik yang
+              akurat.
+            </p>
           </div>
-        </div>
-        <div class="box">
-          <img src="./assets/images/hero.jpg" alt="Hero Image" />
+          <div class="service p-4 shadow bg-primary text-white rounded-4">
+            <i class="fa-solid fa-brain mb-3"></i>
+            <h4 class="mb-3 fw-bold">Service MRI</h4>
+            <p class="lh-lg">
+              Ahli kami siap menangani masalah pada perangkat MRI Anda, mulai
+              dari perbaikan minor hingga overhaul sistem yang kompleks.
+            </p>
+          </div>
+          <div class="service p-4 shadow bg-primary text-white rounded-4">
+            <i class="fa-solid fa-bone mb-3"></i>
+            <h4 class="mb-3 fw-bold">Service X-Ray</h4>
+            <p class="lh-lg">
+              Jasa perbaikan dan pemeliharaan alat X-Ray untuk memastikan
+              keamanan dan kualitas gambar yang dihasilkan tetap prima.
+            </p>
+          </div>
         </div>
       </div>
     </div>
   </section>
-  <section class="about" id="about">
-    <div class="container">
-      <div class="about-box text-center">
-        <h1 class="fw-bold mb-4">Tentang Kami</h1>
-        <p class="lh-lg mb-5">
-          Widipa Multijaya adalah perusahaan yang bergerak di bidang jasa
-          perbaikan dan pemeliharaan alat kesehatan, khususnya USG. Dengan tim
-          teknisi yang berpengalaman dan profesional, kami berkomitmen untuk
-          memberikan pelayanan terbaik demi menunjang operasional fasilitas
-          kesehatan Anda. Kami melayani seluruh Indonesia, dengan fokus utama
-          di Pulau Jawa.
+  <section class="projects overflow-hidden" id="projects">
+    <div class="container px-4">
+      <div class="projects-box">
+        <h1 class="fw-bold mb-3 text-center">
+          Jenis Kerusakan yang Kami Tangani
+        </h1>
+        <p class="text-center">
+          Berikut adalah beberapa jenis kerusakan umum pada alat USG yang
+          sering kami tangani:
         </p>
-        <img src="./assets/images/about.jpg" alt="About Image" class="img-fluid w-5 mx-auto d-block" />
+
+        <div class="row justify-content-center pt-4 gap-4">
+          <div class="col col-md-5 col-12 shadow p-3 rounded">
+            <img src="./assets/images/hasilprobe4d.jpg" alt="Kerusakan Probe 4D Transvaginal" width="100%" />
+            <h4 class="pt-4">Probe 4D Transvaginal Mengalami Kerusakan</h4>
+            <p>
+              Kerusakan pada probe transvaginal dapat memengaruhi kualitas
+              gambar 4D. Kami memiliki keahlian untuk memperbaiki atau
+              mengganti komponen yang rusak.
+            </p>
+            <div>
+              <a href="#" class="btn btn-dark">Detail Kerusakan</a>
+              <a href="kontak.html" class="btn btn-primary">Hubungi Kami</a>
+            </div>
+          </div>
+          <div class="col col-md-5 col-12 shadow p-3 rounded">
+            <img src="./assets/images/probe2d.jpg" alt="Kerusakan Probe 2D Convex" width="100%" />
+            <h4 class="pt-4">
+              Probe 2D Convex Mengalami Kebocoran pada Kristal
+            </h4>
+            <p>
+              Kebocoran pada kristal probe dapat menyebabkan artefak gambar
+              dan performa yang menurun. Kami menyediakan solusi perbaikan
+              profesional.
+            </p>
+            <div>
+              <a href="#" class="btn btn-dark">Detail Kerusakan</a>
+              <a href="kontak.html" class="btn btn-primary">Hubungi Kami</a>
+            </div>
+          </div>
+          <div class="col col-md-5 col-12 shadow p-3 rounded">
+            <img src="./assets/images/matitoal.jpg" alt="USG Mati Total" width="100%" />
+            <h4 class="pt-4">USG Mati Total</h4>
+            <p>
+              Jika perangkat USG Anda tidak dapat menyala sama sekali, tim
+              kami akan melakukan diagnosa menyeluruh untuk menemukan dan
+              memperbaiki akar masalahnya.
+            </p>
+            <div>
+              <a href="#" class="btn btn-dark">Detail Kerusakan</a>
+              <a href="kontak.html" class="btn btn-primary">Hubungi Kami</a>
+            </div>
+          </div>
+          <div class="col col-md-5 col-12 shadow p-3 rounded">
+            <img src="./assets/images/gangguanjaringan.jpg" alt="USG Mengalami Gangguan Koneksi" width="100%" />
+            <h4 class="pt-4">USG Mengalami Gangguan Koneksi</h4>
+            <p>
+              Masalah konektivitas pada USG bisa menghambat transfer data dan
+              fungsionalitas. Kami ahli dalam memulihkan koneksi yang stabil
+              dan andal.
+            </p>
+            <div>
+              <a href="#" class="btn btn-dark">Detail Kerusakan</a>
+              <a href="kontak.html" class="btn btn-primary">Hubungi Kami</a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>

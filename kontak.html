@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="shortcut icon" href="./assets/icon/nm.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="./assets/images/widipa.png" type="image/x-icon" />
 
     <link rel="stylesheet" href="./dist/css/style.css" />
 
@@ -21,36 +21,37 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-primary py-3">
-      <div class="container">
-        <a class="navbar-brand" href="index.html"> <img src="./assets/icon/nm.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top rounded" />
-          <span class="fw-bold text-white">Widipa Multijaya</span>
-        </a>
-        <button class="navbar-toggler bg-white shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto d-flex gap-3 text-center pt-lg-0 pt-4">
-            <li class="nav-item">
-              <a class="nav-link text-white" href="index.html#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="index.html#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="index.html#services">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="index.html#projects">Kerusakan</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="index.html#faq">FAQ</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-white active" aria-current="page" href="kontak.html">Kontak</a> </li>
-          </ul>
-        </div>
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="./assets/images/widipa.png" alt="Logo" width="30" height="30"
+          class="d-inline-block align-text-top rounded" />
+        <span class="fw-bold text-white">Widipa Multijaya</span>
+      </a>
+      <button class="navbar-toggler bg-white shadow-none" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto d-flex gap-3 text-center pt-lg-0 pt-4">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="layanan.html">Layanan</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="faq.html">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="developer.html">Developer</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="kontak.html">Kontak</a>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
     <section class="contact-us py-5">
       <div class="container">
         <h1 class="fw-bold text-center mb-4">Hubungi Kami</h1>
@@ -80,7 +81,7 @@
                   <textarea class="form-control" id="pesan" rows="5" placeholder="Tulis pesan Anda di sini..." required></textarea>
                 </div>
                 <div class="d-grid">
-                  <button type="submit" class="btn btn-primary btn-lg">Kirim Pesan</button>
+                  <a href="submitsukses.html" class="btn btn-primary btn-lg" role="button">Kirim Pesan</a>
                 </div>
               </form>
             </div>
@@ -113,49 +114,58 @@
 
       </div>
     </section>
-    <section class="footer bg-primary">
-      <div class="container">
-        <div class="footer-box">
-          <div class="row justify-content-between row-gap-4">
-            <div class="col col-md-4 col-12 text-white">
-              <div class="d-flex align-items-center gap-2">
-                <img src="./assets/icon/nm.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top rounded" />
-                <h2 class="fw-bold text-white">Widipa Multijaya</h2>
-              </div>
-              <p class="lh-lg opacity-75 m-0">Solusi terpercaya untuk service dan pemeliharaan alat kesehatan Anda. Kami berkomitmen untuk kualitas dan kepuasan pelanggan.</p>
+      <section class="footer bg-primary">
+    <div class="container">
+      <div class="footer-box">
+        <div class="row justify-content-between row-gap-4">
+          <div class="col col-md-4 col-12 text-white">
+            <div class="d-flex align-items-center gap-2">
+              <img src="./assets/images/widipa.png" alt="Logo" width="30" height="30"
+                class="d-inline-block align-text-top rounded" />
+              <h2 class="fw-bold text-white">Widipa Multijaya</h2>
             </div>
-            <div class="col col-md-2 col-12 d-flex flex-column text-white gap-2">
-              <h4 class="fw-bold">Menu</h4>
-              <a href="index.html#home" class="text-white text-decoration-none">Home</a>
-              <a href="index.html#about" class="text-white text-decoration-none">Tentang</a>
-              <a href="index.html#services" class="text-white text-decoration-none">Layanan</a>
-              <a href="index.html#projects" class="text-white text-decoration-none">Kerusakan</a>
-              <a href="index.html#faq" class="text-white text-decoration-none">FAQ</a>
-              <a href="kontak.html" class="text-white text-decoration-none">Kontak</a>
-            </div>
-            <div class="col col-md-4 col-12 d-flex flex-column text-white gap-2">
-              <h4 class="fw-bold">Hubungi Kami</h4>
-              <p class="m-0 d-flex align-items-center gap-2">
-                <i class="fa-solid fa-envelope"></i>
-                info@widipamultijaya.com
-              </p>
-              <p class="m-0 d-flex align-items-center gap-2">
-                <i class="fa-solid fa-phone"></i>
-                (022) - 1234 - 5678 - 910
-              </p>
-              <p class="m-0 d-flex align-items-center gap-2 lh-lg">
-                <i class="fa-solid fa-location-dot"></i>
-                Jalan Pasir Impun, Kel. Sindangjaya, Kec. Mandalajati, Kota Bandung, Jawa Barat
-              </p>
-            </div>
+            <p class="lh-lg opacity-75 m-0">
+              Solusi terpercaya untuk service dan pemeliharaan alat kesehatan
+              Anda. Kami berkomitmen untuk kualitas dan kepuasan pelanggan.
+            </p>
+          </div>
+          <div class="col col-md-2 col-12 d-flex flex-column text-white gap-2">
+            <h4 class="fw-bold">Menu</h4>
+            <a href="index.html" class="text-white text-decoration-none">Home</a>
+            <a href="layanan.html" class="text-white text-decoration-none">layanan</a>
+            <a href="faq.html" class="text-white text-decoration-none">FAQ</a>
+            <a href="kontak.html" class="text-white text-decoration-none">Kontak</a>
+          </div>
+          <div class="col col-md-4 col-12 d-flex flex-column text-white gap-2">
+            <h4 class="fw-bold">Hubungi Kami</h4>
+            <p class="m-0 d-flex align-items-center gap-2">
+              <i class="fa-solid fa-envelope"></i>
+              info@widipamultijaya.com
+            </p>
+            <p class="m-0 d-flex align-items-center gap-2">
+              <i class="fa-solid fa-phone"></i>
+              (022) - 1234 - 5678 - 910
+            </p>
+            <p class="m-0 d-flex align-items-center gap-2 lh-lg">
+              <i class="fa-solid fa-location-dot"></i>
+              Jalan Pasir Impun, Kel. Sindangjaya, Kec. Mandalajati, Kota
+              Bandung, Jawa Barat
+            </p>
           </div>
         </div>
-
-        <div class="copyright text-center text-white">
-          <p class="lh-lg">&copy; Copyright by <span class="fw-bold">Widipa Multijaya</span> 2024, All Rights Reserved.</p>
-        </div>
       </div>
-    </section>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+      <div class="copyright text-center text-white">
+        <p class="lh-lg">
+          &copy; Copyright by
+          <span class="fw-bold">Widipa Multijaya</span> 2024, All Rights
+          Reserved.
+        </p>
+      </div>
+    </div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
   </body>
 </html>
